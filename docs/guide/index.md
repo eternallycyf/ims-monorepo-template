@@ -58,4 +58,4 @@ module.exports = {
 };
 ```
 
-<code src='./a.tsx'>xx </code>
+<code src='./demo.tsx'>demo</code>
