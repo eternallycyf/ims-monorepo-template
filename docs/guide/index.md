@@ -3,59 +3,73 @@ title: 快速上手
 order: 1
 ---
 
-# 使用指南
+## Step1. 使用该模板创建一个新的仓库, 设置密匙及权限
 
-## 配置 Alias
+- 点击右上角 `use this template` -> `create a new reposity` 按钮，创建一个新的仓库。
+  - ![template](../../public/images/ims-template.png)
+- `git clone xxx` 仓库到本地 并安装依赖 `pnpm i`
+- 更换默认分支为 `master`
+  - ![template](../../public/images/default-branch.png)
+- 设置密匙及权限
+  - `仓库/settings/Actions/General` 勾选读写权限
+    - ![template](../../public/images/action-general.png)
+  - 设置仓库密匙
+    - ![template](../../public/images/repository-secrets-1.png)
+      - 分别设置 key 为 `GH_TOKEN` 及 `NPM_TOKEN`的密匙
 
-### 开发: 配置 tsconfig.json
+:::info{title='密匙需要选择 Tokens(classic 类型),否则无法自动发包'}
+GITHUB: 点击右上角头像
+/settings/Developer settings/Personal assess tokens/Tokens(classic)/Generate new token(classic)
+NPM: 点击右上角头像
+/Access Tokens/Generate New Token/Classic Token
+:::
 
-为了在
+## Step2. npm 新建一个组织
 
-在根目录下修改 `tsconfig.json` 中的 `path` 参数项:
+只有这样 才可以使用 `npm publish` 发类似 `@xxx` 的包
 
-```json
-{
-  "baseUrl": ".",
-  "paths": {
-    "<module-name>": ["./packages/<path-name>/src"]
-    "@ims-view/modules-bar": ["./packages/bar/src"]
-  }
-}
+## Step3. 配置自己本地环境配置(可以跳过 用流水线发)
+
+```shell
+npm install -g pnpm semantic-release-cli conventional-changelog
+# macos编辑环境变量 (windows请自行设置)
+vim .zprofile
+# 添加
+export GH_TOKEN=xxx
+export NPM_TOKEN=xxx
+# 更新文件
+source ~/.zprofile
+# 初始化semantic配置
+semantic-release-cli setup --gh-token=xxx --npm-token=xxx --npm-username=xxx
 ```
 
-### 测试: 配置 Jest
+:::info{title='本地 node 版本需要 v18.18.0 及以上(semantic-release)'}
+nvm install v18.18.0
+nvm use v18.18.0
+:::
 
-为了在测试中能够正常识别其他引用
+## Step4. 搭建 Vercel
 
-在根目录下修改 `jest.config.base.ts` 中的 `moduleNameMapper` 参数:
+- 登录 [Vercel](https://vercel.com)
+- 新建项目
 
-```typescript
-const config = {
-  // ...
-  moduleNameMapper: {
-    '@ims-view/modules-bar': '<rootDir>/packages/bar/src',
-    "<module-name>": "'<rootDir>/packages/<path-name>/src"]
-  },
-};
-```
+  - ![template](../../public/images/vercel1.png)
+  - ![template](../../public/images/vercel2.png)
+  - ![template](../../public/images/vercel3.png)
 
-然后需要在 根目录的 `.babelrc` 文件中配置 `module-resolver` 的 `alias` 配置项
+- 点击 `deploy`
 
-## 配置 father-build
+## Step5. 发一个 npm 包试试
 
-如果模块之间存在依赖关系,那么需要在该模块的在 `father-build` 的配置文件 `.fatherrc.js` 中添加 `pkgs` 配置项
+- 全局替换
 
-例如模块 `foo` 依赖了 `bar` , 那么就需要在 foo 模块的目录下的 `.fatherrc.js` 中添加 `pkgs` 参数,如下所示:
+  - `ims-template` => 你的 `npm` 包名
+  - `eternallycyf` => 你的 `github` 名称
+  - 更换 package.json => version => 1.0.0
+  - `git commit --allow-empty -m "✨ feat: npm publish"`
+  - yarn changelog(更新变更历史)
 
-```js
-// packages/foo/.fatherrc.js
-module.exports = {
-  // ...
-  pkgs: [
-    // 依赖过
-    '@ims-view/modules-bar',
-  ],
-};
-```
-
-<code src='./demo.tsx'>demo</code>
+:::info{title='以这些 git commit message 开头的会自动发包 构建生产'}
+✨ feat: xxx
+🐛 fix: xxx
+:::
