@@ -1,5 +1,30 @@
 # Changelog
 
+## Version&nbsp;1.0.0
+
+<sup>Released on **2023-09-30**</sup>
+
+#### ✨ 新特性
+
+- Init project.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- Init project ([e88a058](https://github.com/eternallycyf/ims-monorepo-template/commit/e88a058))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version&nbsp;1.1.0](https://github.com/eternallycyf/ims-monorepo-template/compare/@ims-view/foo@1.0.0...@ims-view/foo@1.1.0)
 
 <sup>Released on **2023-09-30**</sup>
