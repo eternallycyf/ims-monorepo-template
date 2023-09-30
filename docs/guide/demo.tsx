@@ -1,10 +1,10 @@
-import AAA from '@ims-view/bar';
+import DEMO from '@ims-view/bar';
 import React from 'react';
 
 const App = () => {
   return (
     <div>
-      <AAA />
+      <DEMO />
     </div>
   );
 };
