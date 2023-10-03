@@ -1,7 +1,7 @@
 import React, { FC } from 'react';
 
-const Foo: FC = () => {
-  return <div>Hello! </div>;
+const Bar: FC = () => {
+  return <div>hello bar</div>;
 };
 
-export default Foo;
+export default Bar;

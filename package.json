@@ -39,7 +39,8 @@
     "release:local": "multi-semantic-release --no-ci",
     "test": "jest",
     "test:coverage": "jest --coverage",
-    "tsc": "tsc -p tsconfig-check.json"
+    "tsc": "tsc -p tsconfig-check.json",
+    "check-error": "npm run lint && npm run test && npm run test:coverage && npm run doctor"
   },
   "lint-staged": {
     "*.{js,jsx,less,md,json}": [

@@ -19,7 +19,7 @@
     "test": "jest"
   },
   "dependencies": {
-    "@ims-view/foo": "1.0.0"
+    "@ims-view/bar": "1.0.0"
   },
   "peerDependencies": {
     "react": "^18",

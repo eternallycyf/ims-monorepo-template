@@ -1,9 +1,11 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Bar 1`] = `
+exports[`Foo 1`] = `
 <div>
   <div>
-    Hello! 
+    <div>
+      hello bar
+    </div>
   </div>
 </div>
 `;

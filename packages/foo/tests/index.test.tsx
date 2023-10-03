@@ -1,10 +1,10 @@
 import { render } from '@testing-library/react';
 
-import Bar from '@ims-view/bar';
+import Foo from '@ims-view/foo';
 import React from 'react';
 
-test('Bar', () => {
-  const { container } = render(<Bar />);
+test('Foo', () => {
+  const { container } = render(<Foo />);
 
   expect(container).toMatchSnapshot();
 });

@@ -1,13 +1,12 @@
-import Foo from '@ims-view/foo';
+import Bar from '@ims-view/bar';
 import React, { FC } from 'react';
 
-const Bar: FC = () => {
+const Foo: FC = () => {
   return (
     <div>
-      hello Bar!
-      <Foo />
+      <Bar />
     </div>
   );
 };
 
-export default Bar;
+export default Foo;
