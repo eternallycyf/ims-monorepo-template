@@ -45,10 +45,15 @@
 
 ## 组件看板
 
-| 组件                                                         | 下载量                                                                                                     | 版本                                                                           |
-| ------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------ |
-| [@ims-view/bar](https://www.npmjs.com/package/@ims-view/bar) | ![npm-image](http://img.shields.io/npm/v/@ims-view/bar.svg?style=flat-square&color=deepgreen&label=latest) | ![download](https://img.shields.io/npm/dm/@ims-view/bar.svg?style=flat-square) |
-| [@ims-view/foo](https://www.npmjs.com/package/@ims-view/foo) | ![npm-image](http://img.shields.io/npm/v/@ims-view/foo.svg?style=flat-square&color=deepgreen&label=latest) | ![download](https://img.shields.io/npm/dm/@ims-view/foo.svg?style=flat-square) |
+| 组件                                                         | 下载量                                                                                                     | 版本                                                                         |
+| ------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------- |
+| [@ims-view/foo](https://www.npmjs.com/package/@ims-view/foo) | ![npm-image](http://img.shields.io/npm/v/@ims-view/foo.svg?style=flat-square&color=deepgreen&label=latest) | [![NPM downloads][@ims-view/foo-download-image]][@ims-view/foo-download-url] |
+| [@ims-view/bar](https://www.npmjs.com/package/@ims-view/bar) | ![npm-image](http://img.shields.io/npm/v/@ims-view/bar.svg?style=flat-square&color=deepgreen&label=latest) | [![NPM downloads][@ims-view/bar-download-image]][@ims-view/bar-download-url] |
+
+[@ims-view/foo-download-url]: https://npmjs.org/package/@ims-view/foo
+[@ims-view/foo-download-image]: https://img.shields.io/npm/dm/@ims-view/foo.svg?style=flat-square
+[@ims-view/bar-download-url]: https://npmjs.org/package/@ims-view/bar
+[@ims-view/bar-download-image]: https://img.shields.io/npm/dm/@ims-view/bar.svg?style=flat-square
 
 ## License
 
