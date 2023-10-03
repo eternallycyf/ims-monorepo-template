@@ -1,12 +1,10 @@
 # ims-monorepo-template
 
+一个 monorepo 的仓库模板
+
 [![Gitmoji][gitmoji]][gitmoji-url] [![semantic-release][semantic-release]][semantic-release-repo]
 
 [![ docs by dumi][dumi-url]](https://d.umijs.org/) [![Build With father][father-url]](https://github.com/umijs/father/) [![lerna](https://img.shields.io/badge/maintained%20with-lerna-cc00ff.svg)][lerna-url] [![typedoc](https://img.shields.io/badge/API%20by-typedoc-9600ff.svg)](https://typedoc.org/)
-
-一个 monorepo 的仓库模板
-
-[Changelog](./CHANGELOG.md) · [Report Bug][issues-url] · [Request Feature][issues-url]
 
 <!-- umi url -->
 
@@ -23,11 +21,34 @@
 
 ## 使用案例
 
-[ims-view]: https://github.com/eternallycyf/ims-view
+[ims-view-pc](https://github.com/eternallycyf/ims-view-pc)
 
 ## 快速上手
 
 使用指南: ➡️ [传送门](https://ims-monorepo-template.vercel.app/guide)
+
+## 🖥 浏览器兼容性
+
+- 现代浏览器
+- [Electron](https://www.electronjs.org/)
+
+| [![edge](https://raw.githubusercontent.com/alrra/browser-logos/master/src/edge/edge_48x48.png)](http://godban.github.io/browsers-support-badges/) | [![Edge](https://raw.githubusercontent.com/alrra/browser-logos/master/src/firefox/firefox_48x48.png)](http://godban.github.io/browsers-support-badges/) | [![chrome](https://raw.githubusercontent.com/alrra/browser-logos/master/src/chrome/chrome_48x48.png)](http://godban.github.io/browsers-support-badges/) | [![safari](https://raw.githubusercontent.com/alrra/browser-logos/master/src/safari/safari_48x48.png)](http://godban.github.io/browsers-support-badges/) | [![electron_48x48](https://raw.githubusercontent.com/alrra/browser-logos/master/src/electron/electron_48x48.png)](http://godban.github.io/browsers-support-badges/) |
+| ------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Edge                                                                                                                                              | last 2 versions                                                                                                                                         | last 2 versions                                                                                                                                         | last 2 versions                                                                                                                                         | last 2 versions                                                                                                                                                     |
+
+## 参与贡献
+
+我们非常欢迎你的贡献，你可以通过以下方式和我们一起共建 😃 ：
+
+- 通过 [Issue](https://github.com/eternallycyf/ims-monorepo-template/issues) 报告 bug 或进行咨询。
+- 提交 [Pull Request](https://github.com/eternallycyf/ims-monorepo-template/pulls) 改进代码。
+
+## 组件看板
+
+| 组件          | 下载量                                                                                                     | 版本                                                                           |
+| ------------- | ---------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------ |
+| @ims-view/bar | ![npm-image](http://img.shields.io/npm/v/@ims-view/bar.svg?style=flat-square&color=deepgreen&label=latest) | ![download](https://img.shields.io/npm/dm/@ims-view/bar.svg?style=flat-square) |
+| @ims-view/foo | ![npm-image](http://img.shields.io/npm/v/@ims-view/foo.svg?style=flat-square&color=deepgreen&label=latest) | ![download](https://img.shields.io/npm/dm/@ims-view/foo.svg?style=flat-square) |
 
 ## License
 
