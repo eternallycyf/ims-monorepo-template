@@ -5,4 +5,6 @@ nav:
   order: 999
 ---
 
+[![][back-to-top]](#readme-top)
+
 <embed src="../../packages/bar/CHANGELOG.md"></embed>

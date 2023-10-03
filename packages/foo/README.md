@@ -12,3 +12,7 @@
 [version-url]: http://npmjs.org/package/@ims-view/bar
 [download-image]: https://img.shields.io/npm/dm/@ims-view/bar.svg
 [download-url]: https://npmjs.org/package/@ims-view/bar
+
+<!-- repo url -->
+
+- https://github.com/eternallycyf/ims-monorepo-template
