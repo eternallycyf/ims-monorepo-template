@@ -1,5 +1,30 @@
 # Changelog
 
+## [Version&nbsp;1.2.0](https://github.com/eternallycyf/ims-monorepo-template/compare/@ims-view/foo@1.1.0...@ims-view/foo@1.2.0)
+
+<sup>Released on **2023-10-03**</sup>
+
+#### ✨ 新特性
+
+- Update demos.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- Update demos ([77d0082](https://github.com/eternallycyf/ims-monorepo-template/commit/77d0082))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## Version&nbsp;1.0.0
 
 <sup>Released on **2023-09-30**</sup>
