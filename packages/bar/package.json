@@ -18,6 +18,9 @@
     "start": "father dev",
     "test": "jest"
   },
+  "dependencies": {
+    "@babel/runtime": "^7.23.1"
+  },
   "peerDependencies": {
     "react": "^18",
     "react-dom": "^18"
