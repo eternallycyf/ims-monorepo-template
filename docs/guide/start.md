@@ -46,4 +46,14 @@ const config = {
   },
 ```
 
-<code src='./demo.tsx'>demo</code>
+配置 xx 目录下自动解析 xxx.md 根目录的 `.dumirc` 文件中配置 `resolve` 配置项
+
+```ts
+resolve: {
+    docDirs: ['docs'],
+    atomDirs: [
+      { type: 'foo', dir: './packages/foo/src' },
+      { type: 'bar', dir: './packages/bar/src' },
+    ],
+},
+```

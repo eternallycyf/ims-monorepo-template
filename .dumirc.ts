@@ -44,7 +44,13 @@ const themeConfig: SiteThemeConfig = {
       ],
     },
   },
-  socialLinks: { github: homepage },
+  // 目前只能设置一个 自动设置apiHeader
+  apiHeader: {
+    sourceUrl: `https://github.com/eternallycyf/ims-monorepo-template/tree/master/packages/bar/src/{atomId}/index.tsx`,
+    docUrl: `https://github.com/eternallycyf/ims-monorepo-template/tree/master/packages/bar/src/{atomId}/index.md`,
+    pkg: '@ims-view/bar',
+    match: ['/bars'],
+  },
   footer: 'Made with ❤️ by eternallycyf - AFX & 数字科技',
 };
 
@@ -59,6 +65,15 @@ export default defineConfig({
   alias: {
     '@ims-view/foo': path.join(__dirname, './packages/foo/src'),
     '@ims-view/bar': path.join(__dirname, './packages/bar/src'),
+    '@ims-view/foo/src': path.join(__dirname, './packages/foo/src/*'),
+    '@ims-view/bar/src': path.join(__dirname, './packages/bar/src/*'),
+  },
+  resolve: {
+    docDirs: ['docs'],
+    atomDirs: [
+      { type: 'foo', dir: './packages/foo/src' },
+      { type: 'bar', dir: './packages/bar/src' },
+    ],
   },
   styles: [
     `html, body { background: transparent;  }
@@ -78,6 +93,7 @@ export default defineConfig({
   mock: {
     include: ['mock/**/*.{ts}'],
   },
+  exportStatic: false,
   html2sketch: {},
   mfsu: {
     runtimePublicPath: true,

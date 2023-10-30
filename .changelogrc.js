@@ -14,4 +14,5 @@ module.exports = {
   reduceHeadingLevel: true,
   newlineTimestamp: true,
   addBackToTop: false,
+  customTypeMap: {},
 };

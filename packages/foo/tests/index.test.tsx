@@ -1,6 +1,6 @@
 import { render } from '@testing-library/react';
 
-import Foo from '@ims-view/foo';
+import { Foo } from '@ims-view/foo';
 import React from 'react';
 
 test('Foo', () => {
