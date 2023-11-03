@@ -1,5 +1,32 @@
 # Changelog
 
+## [Version&nbsp;1.2.0](https://github.com/eternallycyf/ims-monorepo-template/compare/@ims-view/bar@1.1.1...@ims-view/bar@1.2.0)
+
+<sup>Released on **2023-11-03**</sup>
+
+#### ✨ 新特性
+
+- Update demos.
+
+#### 👌 优化
+
+- Add eslint rules.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- Update demos ([063c6d8](https://github.com/eternallycyf/ims-monorepo-template/commit/063c6d8))
+
+#### Pref
+
+- Add eslint rules ([412b7a5](https://github.com/eternallycyf/ims-monorepo-template/commit/412b7a5))
+
+</details>
+
 ### [Version&nbsp;1.1.1](https://github.com/eternallycyf/ims-monorepo-template/compare/@ims-view/bar@1.1.0...@ims-view/bar@1.1.1)
 
 <sup>Released on **2023-10-03**</sup>
