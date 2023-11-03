@@ -27,6 +27,18 @@ module.exports = {
       'zh-CN': '修复',
       subtitle: "What's fixed",
     },
+    file: {
+      emoji: '📦',
+      'en-US': 'File',
+      'zh-CN': '文件',
+      subtitle: 'File',
+    },
+    init: {
+      emoji: '🎉',
+      'en-US': 'Init',
+      'zh-CN': '初始化',
+      subtitle: 'Init',
+    },
     build: {
       emoji: '👷',
       'en-US': 'Build System',
@@ -34,7 +46,7 @@ module.exports = {
       subtitle: 'Build system',
     },
     chore: {
-      emoji: '🎫',
+      emoji: '🔖',
       'en-US': 'Chores',
       'zh-CN': '杂项',
       subtitle: 'Chores',
@@ -44,6 +56,24 @@ module.exports = {
       'en-US': 'Continuous Integration',
       'zh-CN': '持续集成',
       subtitle: 'Continuous integration',
+    },
+    format: {
+      emoji: '🥚',
+      'en-US': 'Format',
+      'zh-CN': '格式',
+      subtitle: 'Format',
+    },
+    config: {
+      emoji: '🔧',
+      'en-US': 'config',
+      'zh-CN': '配置',
+      subtitle: 'config',
+    },
+    git: {
+      emoji: '🙈',
+      'en-US': 'git',
+      'zh-CN': 'git',
+      subtitle: 'git',
     },
     docs: {
       emoji: '📝',
@@ -58,16 +88,10 @@ module.exports = {
       subtitle: 'Tests',
     },
     perf: {
-      emoji: '⚡',
+      emoji: '👌',
       'en-US': 'Performance Improvements',
       'zh-CN': '性能优化',
       subtitle: 'Performance improvements',
-    },
-    refactor: {
-      emoji: '♻',
-      'en-US': 'Code Refactoring',
-      'zh-CN': '重构',
-      subtitle: 'Code refactoring',
     },
     revert: {
       emoji: '⏪',
@@ -81,11 +105,35 @@ module.exports = {
       'zh-CN': '样式',
       subtitle: 'Styles',
     },
-    pref: {
-      emoji: '👌',
-      'en-US': 'Pref',
-      'zh-CN': '优化',
-      subtitle: 'Pref',
+    patch: {
+      emoji: '🚑',
+      'en-US': 'Patch',
+      'zh-CN': '补丁',
+      subtitle: 'Patch',
+    },
+    publish: {
+      emoji: '🚀',
+      'en-US': 'Publish',
+      'zh-CN': '发布',
+      subtitle: 'Publish',
+    },
+    refactor: {
+      emoji: '🎨',
+      'en-US': 'Refactor',
+      'zh-CN': '重构',
+      subtitle: 'Refactor',
+    },
+    style: {
+      emoji: '💄',
+      'en-US': 'Style',
+      'zh-CN': '样式',
+      subtitle: 'Style',
+    },
+    tag: {
+      emoji: '📌',
+      'en-US': 'Tag',
+      'zh-CN': '标签',
+      subtitle: 'Tag',
     },
   },
 };

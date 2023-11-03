@@ -1,7 +1,7 @@
 ---
 hero:
   title: ims-monorepo-template
-  description: a antd component plus
+  description: a monorepo and docs template
   actions:
     - text: 快速上手
       link: /guide

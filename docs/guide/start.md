@@ -3,9 +3,7 @@ title: 配置Alias
 order: 1
 ---
 
-## 配置 Alias
-
-### 开发: 配置 tsconfig.json
+## ts: 配置 tsconfig.json
 
 为了在
 
@@ -21,7 +19,7 @@ order: 1
 }
 ```
 
-### 测试: 配置 Jest
+## 测试: 配置 Jest
 
 为了在测试中能够正常识别其他引用
 
@@ -37,6 +35,8 @@ const config = {
 };
 ```
 
+## 路径: alias
+
 然后需要在 根目录的 `.dumirc` 文件中配置 `alias` 配置项
 
 ```ts
@@ -45,6 +45,8 @@ const config = {
     '@ims-view/bar': path.join(__dirname, './packages/bar/src'),
   },
 ```
+
+## 文档: resolve
 
 配置 xx 目录下自动解析 xxx.md 根目录的 `.dumirc` 文件中配置 `resolve` 配置项
 

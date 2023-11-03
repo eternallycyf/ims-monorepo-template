@@ -4,6 +4,7 @@ order: 0
 nav:
   title: bar
   order: 4
+apiHeader: false
 ---
 
 ## 使用方式
