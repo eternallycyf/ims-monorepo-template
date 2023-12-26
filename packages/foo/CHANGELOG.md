@@ -1,5 +1,28 @@
 # Changelog
 
+## [Version&nbsp;1.4.0](https://github.com/eternallycyf/ims-monorepo-template/compare/@ims-view/foo@1.3.0...@ims-view/foo@1.4.0)
+
+<sup>Released on **2023-12-26**</sup>
+
+#### ✨ 新特性
+
+- Update demo.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- Update demo ([cf2cda7](https://github.com/eternallycyf/ims-monorepo-template/commit/cf2cda7))
+
+</details>
+
+### Dependencies
+
+- **@ims-view/bar:** upgraded to 1.3.0
+
 ## [Version&nbsp;1.3.0](https://github.com/eternallycyf/ims-monorepo-template/compare/@ims-view/foo@1.2.1...@ims-view/foo@1.3.0)
 
 <sup>Released on **2023-11-03**</sup>
