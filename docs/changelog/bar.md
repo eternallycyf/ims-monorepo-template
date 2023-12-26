@@ -1,8 +1,9 @@
 ---
-title: bar更新日志
+title: bar
 nav:
-  title: 更新日志
+  title: changelog
   order: 999
+tocDepth: 2
 ---
 
 <embed src="../../packages/bar/CHANGELOG.md"></embed>

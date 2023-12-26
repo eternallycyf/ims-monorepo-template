@@ -7,4 +7,6 @@ apiHeader:
   sourceUrl: https://github.com/eternallycyf/ims-monorepo-template/blob/master/packages/foo/src/Foo/index.tsx
 ---
 
-<code src='./demo/index.tsx'>Foo</code>
+## Foo
+
+<code src='./demo/index.tsx'></code>

@@ -2,6 +2,7 @@ import { defineConfig } from 'dumi';
 import type { SiteThemeConfig } from 'dumi-theme-antd-style';
 import path from 'path';
 import { featuresZh } from './config/features';
+import { footer } from './config/footer';
 import style from './docs/siteIndexStyle';
 import { homepage, name as repo } from './package.json';
 
@@ -51,7 +52,11 @@ const themeConfig: SiteThemeConfig = {
     pkg: '@ims-view/bar',
     match: ['/bars'],
   },
-  footer: 'Made with ❤️ by eternallycyf - AFX & 数字科技',
+  footerConfig: {
+    bottom: '2023',
+    copyright: 'Made with ❤️ by eternallycyf - AFX & 数字科技',
+    columns: footer,
+  },
 };
 
 export default defineConfig({

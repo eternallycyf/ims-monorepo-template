@@ -1,8 +1,9 @@
 ---
-title: foo更新日志
+title: foo
 nav:
-  title: 更新日志
+  title: changelog
   order: 999
+tocDepth: 2
 ---
 
 <embed src="../../packages/foo/CHANGELOG.md"></embed>

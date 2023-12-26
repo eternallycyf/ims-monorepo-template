@@ -6,7 +6,7 @@
     "monorepo",
     "template"
   ],
-  "description": "monorepo develop template",
+  "description": "a monorepo and docs template",
   "homepage": "https://github.com/eternallycyf/ims-monorepo-template#readme",
   "bugs": {
     "url": "https://github.com/eternallycyf/ims-monorepo-template"
