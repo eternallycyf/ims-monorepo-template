@@ -58,7 +58,7 @@ nvm use v18.18.0
   - 在 config/features.ts 及 config/footer.tsx 设置自己的首页信息及页脚信息
   - 更新 `./packages/bar/package.json` 及 `./packages/foo/package.json` 中的 `version` 为 `0.0.1`
 
-- [一个修改的 commit 差异记录](https://github.com/eternallycyf/components/commit/5af6e4b368648f22bb6f76f8576703a873148f90)
+- [一个修改的 commit 差异记录](https://github.com/eternallycyf/components/commit/fda8e08996a81152ce33131bced58114a850b324)
 
 ## Step5. 搭建 Vercel
 
