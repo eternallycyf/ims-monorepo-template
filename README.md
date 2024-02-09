@@ -24,6 +24,9 @@ node 版本 v18.13.0
 ## 使用案例
 
 [ims-view-pc](https://github.com/eternallycyf/ims-view-pc)
+[components](https://github.com/eternallycyf/components)
+[ims-template-config](https://github.com/eternallycyf/ims-template-config)
+[ims-editor](https://github.com/eternallycyf/ims-editor)
 
 ## 快速上手
 
