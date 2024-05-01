@@ -1,5 +1,6 @@
 ---
 hero:
+  showCustomContent: true
   title: ims-monorepo-template
   description: a monorepo and docs template
   actions:

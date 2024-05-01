@@ -1,5 +1,7 @@
 # ims-monorepo-template
 
+> 🚧 Don't use this for production code!
+
 一个 monorepo 的仓库模板
 
 node 版本 v18.13.0
