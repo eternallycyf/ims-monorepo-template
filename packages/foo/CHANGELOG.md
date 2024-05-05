@@ -1,5 +1,36 @@
 # Changelog
 
+## [Version&nbsp;1.5.0](https://github.com/eternallycyf/ims-monorepo-template/compare/@ims-view/foo@1.4.0...@ims-view/foo@1.5.0)
+
+<sup>Released on **2024-05-05**</sup>
+
+#### ✨ 新特性
+
+- Add umd build.
+
+#### 🔖 杂项
+
+- Lock react version.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- Add umd build ([be1cae9](https://github.com/eternallycyf/ims-monorepo-template/commit/be1cae9))
+
+#### Chores
+
+- Lock react version ([0026201](https://github.com/eternallycyf/ims-monorepo-template/commit/0026201))
+
+</details>
+
+### Dependencies
+
+- **@ims-view/bar:** upgraded to 1.4.0
+
 ## [Version&nbsp;1.4.0](https://github.com/eternallycyf/ims-monorepo-template/compare/@ims-view/foo@1.3.0...@ims-view/foo@1.4.0)
 
 <sup>Released on **2023-12-26**</sup>
