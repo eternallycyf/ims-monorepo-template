@@ -1,5 +1,28 @@
 # Changelog
 
+### [Version&nbsp;1.5.1](https://github.com/eternallycyf/ims-monorepo-template/compare/@ims-view/foo@1.5.0...@ims-view/foo@1.5.1)
+
+<sup>Released on **2024-05-15**</sup>
+
+#### 🐛 修复
+
+- Entra use ts replace tsx.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- Entra use ts replace tsx ([b914539](https://github.com/eternallycyf/ims-monorepo-template/commit/b914539))
+
+</details>
+
+### Dependencies
+
+- **@ims-view/bar:** upgraded to 1.4.1
+
 ## [Version&nbsp;1.5.0](https://github.com/eternallycyf/ims-monorepo-template/compare/@ims-view/foo@1.4.0...@ims-view/foo@1.5.0)
 
 <sup>Released on **2024-05-05**</sup>
