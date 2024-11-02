@@ -99,3 +99,31 @@ nvm use v18.18.0
 ✨ feat: xxx
 🐛 fix: xxx
 :::
+
+## 线上代理
+
+### 1.xSwitch
+
+- 安装浏览器插件
+- https://chromewebstore.google.com/detail/xswitch/idkjhjggpffolpidfkikidcokdkdaogg?hl=zh
+
+```json
+["https://ims-view-pc-eternallycyfs-projects.vercel.app/(.*\\.js)", "http://127.0.0.1:8002/$1"]
+```
+
+### dumi
+
+#### .dumirc.ts
+
+```js
+{
+  base: "/",
+  publicPath: '/',
+}
+```
+
+#### package.json
+
+```js
+"start": "SOCKET_SERVER=http://127.0.0.1:8000/ dumi dev",
+```
