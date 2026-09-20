@@ -5,23 +5,24 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
 
-      - name: ⚙ 设置 pnpm
-        uses: pnpm/action-setup@v2
+      - name: Install pnpm
+        uses: pnpm/action-setup@v4
         with:
-          version: latest
+          version: 10.16.1
 
-      - name: 🏗 准备 Node.js 环境
-        uses: actions/setup-node@v3
+      - name: Setup Node.js environment
+        uses: actions/setup-node@v4
         with:
-          node-version: '18'
+          node-version: '24'
+          cache: 'pnpm'
 
-      - name: 🗳 安装依赖
+      - name: Install deps
         run: pnpm install
 
-      - name: ✅ 测试检查
+      - name: Test and coverage
         run: pnpm run test:coverage
 
-      - name: ⬆️上传至 Codecov
+      - name: Upload coverage to Codecov
         uses: codecov/codecov-action@v3
